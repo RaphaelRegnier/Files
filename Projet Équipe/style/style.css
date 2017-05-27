@@ -1,0 +1,74 @@
+/*Page Login*/
+
+
+.bienvenue {
+ margin-top:5%;
+ font-family: 'Indie Flower', cursive;
+}
+
+.formlog {
+    margin-top:2%;
+    position: relative;
+    left: 1%
+    
+}
+
+
+
+   .loginbody {
+background-image: url("/Projet%20Équipe/imgs/piggy-bank.png"); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: left;
+background-size: 600px 340px;
+padding:35px; 
+
+} 
+
+
+/*Couleur de fond pour toutes les pages*/
+
+body  {
+
+background-color: rgb(255,249,233) !important;
+
+}
+
+/*Page AccountStatus*/
+
+.messagetable {
+    margin-top:5%;
+}
+
+.solde{
+    margin-top:1%;
+}
+
+#tableau1{
+    margin-top:1%;
+    
+}
+
+/*NavBar*/
+
+.navbar-default {
+    background-color: rgba(251, 245, 243, 1) !important;
+}
+
+
+
+/*Modifie la couleur des stripes du tableau bootstrap*/
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgb(247,236,198);
+ }
+
+
+
+
+/* Page virement*/
+
+.perso {
+    padding: 2px !important;
+    font-size: 10px;
+}
